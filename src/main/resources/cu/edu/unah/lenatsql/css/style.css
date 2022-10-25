@@ -1,0 +1,54 @@
+/*.text-field {*/
+/*    -fx-background-color: rgba(0,0,0,0.1);*/
+/*    -fx-border-color: rgba(0,0,0,0.1);*/
+/*    -fx-background-radius:20;*/
+/*    -fx-border-radius:20;*/
+/*    -fx-min-height:45;*/
+/*    -fx-text-fill: #fff;*/
+/*    -fx-prompt-text-fill: #fff;*/
+/*    -fx-border-width:0px;*/
+/*    -fx-alignment: center;*/
+/*    -fx-font-size: 1.2em;*/
+/*    -fx-effect: null;*/
+/*}*/
+
+.text-field:hover,
+.text-field:focused,
+.text-field:selected {
+    /*-fx-background-color: rgba(0,0,0,0.1);*/
+    /*-fx-border-color: rgb(255, 0, 0);*/
+    /*-fx-background-radius:30;*/
+    /*-fx-border-radius:30;*/
+    -fx-border-color: green;
+    /*-fx-min-height:45;*/
+    /*-fx-text-fill: #fff;*/
+    /*-fx-prompt-text-fill: #fff;*/
+    /*-fx-border-width:0px;*/
+    /*-fx-alignment: center;*/
+    /*-fx-font-size: 1.2em;*/
+    /*-fx-effect: null;*/
+}
+
+.button{
+    -fx-background-color: green;
+    -fx-border-color: green;
+    -fx-text-fill: white;
+}
+
+.button:hover{
+    -fx-background-color: rgba(155, 236, 155, 0.6);
+    -fx-border-color: rgba(155, 236, 155, 0.6);;
+    -fx-text-fill: black;
+}
+
+.dialog-button{
+    -fx-background-color: green;
+    -fx-border-color: green;
+    -fx-text-fill: white;
+}
+
+.dialog-button:hover{
+    -fx-background-color: rgba(155, 236, 155, 0.6);
+    -fx-border-color: rgba(155, 236, 155, 0.6);;
+    -fx-text-fill: black;
+}
